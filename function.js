@@ -18,6 +18,8 @@ img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Target_Corp
 var div = document.getElementById("box");
 div.appendChild(img);
 */
+const music = new Audio('music.mp3');
+music.play();
 
 const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')
@@ -72,5 +74,3 @@ function countDown() {
 
 let countDownTimerId = setInterval(countDown, 1000)
 
-var music = new Audio('music.mp3');
-music.play();
