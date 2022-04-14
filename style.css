@@ -5,6 +5,18 @@
 	flex-wrap: wrap;
 }
 
+.time-score{
+	width: 175px;
+	height: 130px;
+	display: flex;
+	flex-wrap: wrap;
+	border: black;
+	border-radius: 1%;
+	background-image: url("Scorewall.png");
+	background-size: cover;
+	justify-content: center;
+}
+
 .square {
 	height: 200px;
 	width: 200px;
