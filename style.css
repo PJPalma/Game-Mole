@@ -17,7 +17,8 @@
 }
 
 #game-board {
-	background-color: blue ;
+	background-image: url("Wall.png") ;
+	background: cover;
 	display: flex;
 	justify-content: center;
 
