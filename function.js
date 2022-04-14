@@ -46,6 +46,8 @@ squares.forEach(square => {
       result++
       score.textContent = result
       hitPosition = null
+      var audio = new Audio('pointsound.wav');
+      audio.play()
     }
   })
 })
@@ -70,5 +72,5 @@ function countDown() {
 
 let countDownTimerId = setInterval(countDown, 1000)
 
-var audio = new Audio('music.mp3');
-audio.play();
+var music = new Audio('music.mp3');
+music.play();
