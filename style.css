@@ -18,10 +18,10 @@
 
 #game-board {
 	background-image: url("Wall.png") ;
-	background: cover;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
-
+	height: 100%;
 }
 
 body {
