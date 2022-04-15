@@ -19,7 +19,7 @@ var div = document.getElementById("box");
 div.appendChild(img);
 */
 const music = new Audio('music.mp3');
-music.play()
+music.play();
 
 
 const squares = document.querySelectorAll('.square')
@@ -70,8 +70,8 @@ function countDown() {
    clearInterval(timerId)
    alert('Good Try, heres your scoreboard ' + result)
  }
-
 }
 
 let countDownTimerId = setInterval(countDown, 1000)
+
 

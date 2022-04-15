@@ -13,7 +13,7 @@
 	background-color: #2e2329;
 	 cursor: pointer; 
 }
-	
+
 
 .time-score{
 	width: 175px;
@@ -22,7 +22,6 @@
 	flex-wrap: wrap;	
 	background-image: url("Scorewall.png");
 	background-size: cover;
-	justify-content: center;
 }
 
 .square {
@@ -47,4 +46,5 @@
 body {
 	margin: 0px;
 }
+
 
