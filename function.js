@@ -19,7 +19,8 @@ var div = document.getElementById("box");
 div.appendChild(img);
 */
 const music = new Audio('music.mp3');
-music.play();
+music.play()
+
 
 const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')

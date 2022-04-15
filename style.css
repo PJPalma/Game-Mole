@@ -5,13 +5,21 @@
 	flex-wrap: wrap;
 }
 
+.square{
+	transition: background-color 1s ease-out 100ms
+}
+
+.square:hover {
+	background-color: #2e2329;
+	 cursor: pointer; 
+}
+	
+
 .time-score{
 	width: 175px;
-	height: 130px;
+	height: 130px;	
 	display: flex;
-	flex-wrap: wrap;
-	border: black;
-	border-radius: 1%;
+	flex-wrap: wrap;	
 	background-image: url("Scorewall.png");
 	background-size: cover;
 	justify-content: center;
@@ -39,3 +47,4 @@
 body {
 	margin: 0px;
 }
+
